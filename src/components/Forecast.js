@@ -140,10 +140,11 @@ const Forecast = () => {
 
       {spinner}
 
-      {error ? (
+      {error && !spinner ? (
         <h1>{error}</h1>
       ) : (
-        current.condition && (
+        current.condition &&
+        !spinner && (
           <>
             <AnimatePresence>
               <motion.h2
