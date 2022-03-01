@@ -15,3 +15,11 @@ I ended up using an api called the weatherapi. What kind of name should we have 
 
 -   get current location of user
 -   update search bar with autocomplete location
+
+## Side Note
+
+You will need an api to access the data of this api. Make sure to store it in an environmental variable.
+
+```
+REACT_APP_API_KEY = {{API_KEY}}
+```
